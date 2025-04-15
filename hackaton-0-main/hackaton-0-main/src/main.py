@@ -1,6 +1,10 @@
 def calculadora(num1, num2 , operacion):
     while True:
+            num1 = float(input("Ingresa el primer número: "))
+            operacion = input("Ingresa la operación (+, -, *, /): ")
+            num2 = float(input("Ingresa el segundo número: "))
         try:
+            
             if operacion == "+":
                 resultado = num1 + num2
             elif operacion == "-":
