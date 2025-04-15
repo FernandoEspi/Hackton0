@@ -1,6 +1,8 @@
 def calculadora(num1, num2 , operacion):
     while True:
+        
         try:
+            
             if operacion == "+":
                 resultado = num1 + num2
             elif operacion == "-":
@@ -18,6 +20,7 @@ def calculadora(num1, num2 , operacion):
 
             print(f"Resultado: {resultado}")
 
+            
             otra = input("¿Deseas hacer otra operación? Responde un (si)").lower()
             if otra != "si":
                 print("Gracias por usar la calculadora.")
